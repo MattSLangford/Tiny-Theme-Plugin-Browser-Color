@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "title": "Tiny theme plugin - Browser Color",
+  "description": "Customize the accent color shown on some modern browsers, such as Safari on iOS.",
+  "includes": [
+    "plugin_browser_color.html"
+  ],
+  "fields": [
+    {
+      "field": "params.plugin_broswer_color_html",
+      "label": "Choose your browser accent color:",
+      "type": "color"
+    }
+  ]
+}
