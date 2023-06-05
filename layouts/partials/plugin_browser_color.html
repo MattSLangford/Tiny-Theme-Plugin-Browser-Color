@@ -1,1 +1,2 @@
-{{ .Site.Params.browser_color_plugin_html | safeHTML }}
+<meta name="theme-color" content="{{ .Site.Params.plugin_browser_color_html }}" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="{{ .Site.Params.plugin_browser_color_dark_html }}" media="(prefers-color-scheme: dark)">
