@@ -11,5 +11,10 @@
       "label": "Choose your browser accent color:",
       "type": "color"
     }
+    {
+      "field": "params.plugin_browser_color_dark_html"
+      "label": "Choose your dark mode browser accent color:"
+      "type": "color"
+    }
   ]
 }
